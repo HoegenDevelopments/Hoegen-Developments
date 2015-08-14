@@ -1,4 +1,4 @@
-body{font-family: 'Roboto', sans-serif;}
+body{font-family: 'Roboto', sans-serif;  position: relative;}
 .jumbotron {background-image: url('files/bground2.jpg'); background-size:cover;
         height:800px;
         margin-bottom:  -20px;
@@ -6,16 +6,27 @@ body{font-family: 'Roboto', sans-serif;}
 }
 .jumbotron h1{padding-top:75px;}
 .jumbotron p {font-family: 'Roboto', sans-serif; font-weight: 400}
-
 header{position:fixed;  background-color: white; width: 100%; z-index: 100;}
 header img {padding-top:22px;z-index: 101;}
-.logo{width:400px;}
-.section2{width:100%; height:800px; background-image:url('files/div2.png');color:white; margin-top: 0px;}
-.section2 h1{text-align: center; padding-top:100px;}
+.logo{width:380px;}
+.section2{width:100%; height:800px; background-image:url('files/div2.png');color:white; margin-top: 0px; margin-bottom: -20px}
+.section2 h1{text-align: center; padding-top:100px; padding-bottom: 75px;}
+.section3{width:100%; height: 800px;background-image: url('files/squared_metal.png')}
+.section3 h1{text-align: center; padding-top:100px; padding-bottom: 75px; color:darkslategray;}
+.section4{width:100%; height: 800px;background-image: url('files/grey_wash_wall.png')}
+.section4 h1{text-align: center; padding-top:100px; padding-bottom: 75px; color:darkslategray;}
+.thumbnail img{padding:20px}
 .nav li{display:inline-block}
 .nav li a{font-size:20px;color:black;padding-bottom: 25px;padding-top: 25px;}
 .pull-right{padding-right:50px;}
 .btn-success{background-color:mediumaquamarine; border-color: mediumaquamarine }
+.caption{text-align: center;}
+.center {
+    margin: auto;
+    width: 60%;
+
+}
+
 @media only screen and (max-width: 480px) {
     .section1{height:303px}
     .logo {width:300px;}
