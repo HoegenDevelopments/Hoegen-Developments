@@ -4,31 +4,38 @@ body{font-family: 'Roboto', sans-serif;  position: relative;}
         margin-bottom:  -20px;
         color:white;
 }
+input{font-size:20px;}
+textarea {font-size: 15px}
+.thanks{display:none;}
 .jumbotron h1{padding-top:75px;}
 .jumbotron p {font-family: 'Roboto', sans-serif; font-weight: 400}
 header{position:fixed;  background-color: white; width: 100%; z-index: 100;}
 header img {padding-top:22px;z-index: 101;}
+.ss-form-entry {padding-bottom:30px;}
 .logo{width:380px;}
 .section2{width:100%; height:800px; background-image:url('files/div2.png');color:white; margin-top: 0px; margin-bottom: -20px}
 .section2 h1{text-align: center; padding-top:100px; padding-bottom: 75px;}
-.section3{width:100%; height: 800px;background-image: url('files/squared_metal.png')}
+.section3{width:100%; height: 1200px;background-image: url('files/small_steps.png'); margin-bottom: -20px}
 .section3 h1{text-align: center; padding-top:100px; padding-bottom: 75px; color:darkslategray;}
-.section4{width:100%; height: 800px;background-image: url('files/grey_wash_wall.png')}
-.section4 h1{text-align: center; padding-top:100px; padding-bottom: 75px; color:darkslategray;}
+.section4{width:100%; height: 800px;background-image: url('files/grey_wash_wall.png');margin-bottom: 0px; color:white; margin-bottom: -20px;}
+.section4 h1{text-align: center; padding-top:100px; padding-bottom: 75px; color:white;}
+.section5{width:100%; height: 700px;background-image: url('files/linedpaper.png');margin-bottom: -20px}
+.section5 h1{text-align: center; padding-top:100px; padding-bottom: 25px; color:darkslategray;}
+footer{width:100%; height: 300px;background-image: url('files/dark_embroidery.png'); color:white;}
+footer a{color:whitesmoke;}
+footer a:hover{color:lightgray;}
+footer ul{list-style-type: none; margin-left: -40px;}
 .thumbnail img{padding:20px}
 .nav li{display:inline-block}
 .nav li a{font-size:20px;color:black;padding-bottom: 25px;padding-top: 25px;}
 .pull-right{padding-right:50px;}
 .btn-success{background-color:mediumaquamarine; border-color: mediumaquamarine }
 .caption{text-align: center;}
-.center {
-    margin: auto;
-    width: 60%;
-
-}
+.center {margin: auto;width: 20%;}
 
 @media only screen and (max-width: 480px) {
     .section1{height:303px}
+    .section3{height:1750px}
     .logo {width:300px;}
     .nav li a{font-size:15px;color:black;padding:15px 5px 15px 5px;}
     .pull-right{padding-right:20px;}
