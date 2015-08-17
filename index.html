@@ -2,25 +2,26 @@
 <!-- Created by Ian Hoegen; Hoegen Developments 2015, All Rights Reserved. Contact: Phone: (253) 328 1936; ianhoegen@gmail.com -->
 <html>
     <head>
-    <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel=stylesheet href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,900,700,500' rel=stylesheet type='text/css'>
         <title>Hoegen Developments</title>
         <link rel=stylesheet href=main.css>
         <link rel="shortcut icon" href="files/hd.png" type="image/x-icon"/>
         <meta property=keywords content="gig harbor, web design, gig harbor web design, social media, web development, ian hoegen, hoegen developments"/>
         <meta property=og:description content="We are a web design and development firm based in Gig Harbor, Washington. We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business."/>
+        <base target ="_blank">
     </head>
     <body data-spy=scroll data-target=.nav data-offset=50>
         <header class=nav>
             <nav class=nav>
-                <div id=navbar class=col-lg-1> <a href=#home><img class='logo center-block' src='files/logo.jpg' alt=logo></a></div>
-                <ul class='pull-right nav nav-tabs  green'>
-                    <li class=active><a href=#home>Home</a></li>
-                    <li><a href=#about>About</a></li>
-                    <li><a href=#portfolio>Our Work</a></li>
-                    <li><a href=#team>Our Team</a></li>
-                    <li><a href=#contact>Contact</a></li>
+                <div id=navbar class=col-lg-1> <a href=#home target="_self"><img class='logo center-block' src='files/logo.jpg' alt=logo></a></div>
+                <ul class='pull-right nav nav-tabs  center-block green'>
+                    <li class=active><a href=#home target="_self">Home</a></li>
+                    <li><a href=#about target="_self">About</a></li>
+                    <li><a href=#portfolio target="_self">Our Work</a></li>
+                    <li><a href=#team target="_self">Our Team</a></li>
+                    <li><a href=#contact target="_self">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -29,7 +30,7 @@
             <div class=container>
                 <h1>Hoegen Developments</h1>
                 <p>We are a web design and development firm based in Gig Harbor, Washington. <br>We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business.</p>
-                <p><a class="btn btn-success btn-lg" href="#" role=button>Learn more</a></p>
+                <p><a class="btn btn-success btn-lg" href="#about" target="_self" role=button>Learn more</a></p>
             </div>
         </div>
         <a name=about></a>
@@ -293,25 +294,25 @@
                     <div class=ss-form>
                         <iframe name=hidden_iframe id=hidden_iframe style="display:none;"></iframe>
                     </div>
-                    <form action="https://docs.google.com/forms/d/1BdQcocTKp69XFHDDU9-uZhNnoxo9bAJN49fTEllsqyI/formResponse" method=post target=hidden_iframe onsubmit="submitted = true; class = center - block">
+                    <form action="https://docs.google.com/forms/d/1BdQcocTKp69XFHDDU9-uZhNnoxo9bAJN49fTEllsqyI/formResponse" method=post target=hidden_iframe onsubmit="hide()">
                         <div style=display:inline-block>
                             <div class="ss-form-question errorbox-good" role=listitem>
                                 <div dir=auto class="ss-item ss-item-required ss-text"><div class=ss-form-entry>
                                         <label class=ss-q-item-label for=entry_1263259798></label>
-                                        <input name=entry.1263259798 value="" class=ss-q-short id=entry_1263259798 size=30 aria-label="First Name  " aria-required=true required title="" placeholder=Name>
+                                        <input name=entry.1263259798 value="" class=ss-q-short id=entry_1263259798 size=27 aria-label="First Name  " aria-required=true required title="" placeholder=Name>
                                     </div></div></div> <div class="ss-form-question errorbox-good" role=listitem>
                                 <div dir=auto class="ss-item ss-item-required ss-text"><div class=ss-form-entry>
                                         <label class=ss-q-item-label for=entry_1014378828>
-                                            <div class="ss-q-help ss-secondary-text" dir=auto></div></label>
-                                        <input name=entry.1014378828 value="" class=ss-q-short id=entry_1014378828 size=30 dir=auto aria-label="Last Name  " aria-required=true required title="" placeholder='Phone Number'>
+                                        </label>
+                                        <input name=entry.1014378828 value="" class=ss-q-short id=entry_1014378828 size=27 dir=auto aria-label="Last Name  " aria-required=true required title="" placeholder='Phone Number'>
                                     </div></div></div></div> <div class="ss-form-question errorbox-good" role=listitem>
                             <div dir=auto class="ss-item ss-item-required ss-text"><div class=ss-form-entry>
                                     <label class=ss-q-item-label for=entry_2020436796></label>
-                                    <input type=email name=entry.2020436796 value="" class=ss-q-short id=entry_2020436796 size=30 dir=auto aria-label="Email Address  Please Enter a Valid Email Address" aria-required=true required title="Please Enter a Valid Email Address" placeholder=Email>
+                                    <input type=email name=entry.2020436796 value="" class=ss-q-short id=entry_2020436796 size=27 dir=auto aria-label="Email Address  Please Enter a Valid Email Address" aria-required=true required title="Please Enter a Valid Email Address" placeholder=Email>
                                 </div></div></div> <div class="ss-form-question errorbox-good" role=listitem>
                             <div dir=auto class="ss-item ss-item-required ss-paragraph-text"><div class=ss-form-entry>
                                     <label class=ss-q-item-label for=entry_683434781></label>
-                                    <textarea name=entry.683434781 rows=5 cols=38 class=ss-q-long id=entry_683434781 dir=auto aria-label="Message  " aria-required=true required placeholder='Your message or inquiry'></textarea>
+                                    <textarea name=entry.683434781 rows=5 cols=34 class=ss-q-long id=entry_683434781 dir=auto aria-label="Message  " aria-required=true required placeholder='Your message or inquiry'></textarea>
                                     <br>
                                 </div>
                             </div>
@@ -352,7 +353,7 @@
             </div>
             <div class=col-md-4>
                 <h2>Like what you see?</h2>
-                <h5><a href=#contact>Contact Us!</a></h5>
+                <h5><a href=#contact target="_self">Contact Us!</a></h5>
             </div>
             <div class=col-md-4>
                 <h2>Come find us</h2>
@@ -370,11 +371,11 @@
         <script>
                         var submitted = false;
                         $('body').scrollspy({target: '.nav'});
-                        $(document).ready(function () {
-                            $('#ss-submit').click(function () {
-                                $('.thanks').show();
-                                $('.form').hide();
-                            });
-                        });</script>
+                        function hide() {
+                            $('.thanks').show();
+                            $('.form').hide();
+                        }
+                        ;
+        </script>
     </body>
 </html>
