@@ -28,7 +28,7 @@ footer ul{list-style-type:none;margin-left:-40px;}
 .pull-right{padding-right:50px;}
 .btn-success{background-color:rgb(0,217,101);border-color:rgb(0,217,101)}
 .caption{text-align:center;}
-.card-container{-webkit-perspective:800px;-moz-perspective:800px;-o-perspective:800px;perspective:800px;margin-bottom:30px;}
+.card-container{-webkit-perspective:800px;-moz-perspective:800px;-o-perspective:800px;perspective: 800px;margin-bottom:30px;}
 .card-container:not(.manual-flip):hover .card,
 .card-container.hover.manual-flip .card{-webkit-transform:rotateY(180deg);-moz-transform:rotateY(180deg);-o-transform:rotateY(180deg);transform:rotateY(180deg);}
 .card-container.static:hover .card,
