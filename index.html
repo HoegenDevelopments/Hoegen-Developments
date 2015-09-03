@@ -10,16 +10,23 @@
         <link rel="shortcut icon" href="files/hd.png" type="image/x-icon"/>
         <meta property=keywords content="gig harbor, web design, gig harbor web design, social media, web development, ian hoegen, hoegen developments"/>
         <meta property=og:description content="We are a web design and development firm based in Gig Harbor, Washington. We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business."/>
-<meta name="google-site-verification" content="DR-bctiAOU5lFll54LfH-Q9cx6gdkZfuPLcwZiq6VZY" />
+        <meta name="google-site-verification" content="DR-bctiAOU5lFll54LfH-Q9cx6gdkZfuPLcwZiq6VZY" />
         <base target ="_blank">
         <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-66867484-1', 'auto');
-  ga('send', 'pageview');
-</script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments)
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-66867484-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </head>
     <body data-spy=scroll data-target=.nav data-offset=50>
         <header class=nav>
@@ -69,93 +76,127 @@
         <a name=portfolio></a>
         <div id=portfolio class=section3>
             <h1>Our Work</h1>
-            <div class="container col-md-6 " align=center>
-                <div class=thumbnail>
-                    <a class=thumbnail data-toggle=modal data-target="#myModal"><img src="files/w2gh.png" alt="Welcome To Gig Harbor"/></a>
-                    <p class=caption>Website for The Lee Team Real Estate, in Gig Harbor</p>
+            <div class='row'>
+                <div class="container col-md-6 " align=center>
+                    <div class=thumbnail>
+                        <a class=thumbnail data-toggle=modal data-target="#myModal"><img src="files/w2gh.png" alt="Welcome To Gig Harbor"/></a>
+                        <p class=caption>Website for The Lee Team Real Estate, in Gig Harbor</p>
+                    </div>
+                    <div class="modal fade" id=myModal role=dialog>
+                        <div class=modal-dialog>
+                            <div class=modal-content>
+                                <div class=modal-header>
+                                    <button type=button class=close data-dismiss=modal>&times;</button>
+                                    <h4 class=modal-title>Website for local real estate agents, at <a href='http://welcome2gigharbor.com'>Welcome2GigHarbor.com</a></h4>
+                                </div>
+                                <div class=modal-body>
+                                    <a href='http://welcome2gigharbor.com'><img class=img-responsive src="files/w2gh.png" alt="Welcome To Gig Harbor"/> </a>
+                                </div>
+                                <div class=modal-footer>
+                                    <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal fade" id=myModal role=dialog>
-                    <div class=modal-dialog>
-                        <div class=modal-content>
-                            <div class=modal-header>
-                                <button type=button class=close data-dismiss=modal>&times;</button>
-                                <h4 class=modal-title>Website for local real estate agents, at <a href='http://welcome2gigharbor.com'>Welcome2GigHarbor.com</a></h4>
-                            </div>
-                            <div class=modal-body>
-                                <a href='http://welcome2gigharbor.com'><img class=img-responsive src="files/w2gh.png" alt="Welcome To Gig Harbor"/> </a>
-                            </div>
-                            <div class=modal-footer>
-                                <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                <div class='container col-md-6'>
+                    <div class=thumbnail>
+                        <a class=thumbnail data-toggle=modal data-target="#myModal2"><img src="files/mdm.png" alt="MD Moore"/></a>
+                        <p class=caption>A website for local author, MD Moore</p>
+                    </div>
+                    <div class="modal fade" id=myModal2 role=dialog>
+                        <div class=modal-dialog>
+                            <div class=modal-content align=center>
+                                <div class=modal-header>
+                                    <button type=button class=close data-dismiss=modal>&times;</button>
+                                    <h4 class="modal-title ">Website for a local author, <a href='http://mdmooreauthor.com'>MD Moore</a></h4>
+                                </div>
+                                <div class=modal-body>
+                                    <a href='http://mdmooreauthor.com'><img class=img-responsive src="files/mdm.png" alt="Michael Moore"/></a>
+                                </div>
+                                <div class=modal-footer>
+                                    <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class='container col-md-6'>
-                <div class=thumbnail>
-                    <a class=thumbnail data-toggle=modal data-target="#myModal2"><img src="files/mdm.png" alt="MD Moore"/></a>
-                    <p class=caption>A website for local author, MD Moore</p>
+            <div class='row'>
+                <div class='container col-md-6 showcase'>
+                    <div class=thumbnail>
+                        <a class=thumbnail data-toggle=modal data-target="#myModa3"><img src="files/ihtk.png" alt="Ian Hoegen"/></a>
+                        <p class=caption>A personal resume website for Ian Hoegen</p>
+                    </div>
+                    <div class="modal fade" id=myModa3 role=dialog>
+                        <div class=modal-dialog>
+                            <div class=modal-content align=center>
+                                <div class=modal-header>
+                                    <button type=button class=close data-dismiss=modal>&times;</button>
+                                    <h4 class="modal-title ">Personal resume site for, <a href='http://ian.hoegendevelopments.ga'>Ian Hoegen</a></h4>
+                                </div>
+                                <div class=modal-body>
+                                    <a href='http://ian.hoegendevelopments.ga'><img class=img-responsive src="files/ihtk.png" alt="Ian Hoegen"/></a>
+                                </div>
+                                <div class=modal-footer>
+                                    <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="modal fade" id=myModal2 role=dialog>
-                    <div class=modal-dialog>
-                        <div class=modal-content align=center>
-                            <div class=modal-header>
-                                <button type=button class=close data-dismiss=modal>&times;</button>
-                                <h4 class="modal-title ">Website for a local author, <a href='http://mdmooreauthor.com'>MD Moore</a></h4>
-                            </div>
-                            <div class=modal-body>
-                                <a href='http://mdmooreauthor.com'><img class=img-responsive src="files/mdm.png" alt="Michael Moore"/></a>
-                            </div>
-                            <div class=modal-footer>
-                                <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                <div class='container col-md-6 showcase'>
+                    <div class=thumbnail>
+                        <a class=thumbnail data-toggle=modal data-target="#myModa4"><img src="files/phs.png" alt="Ian Hoegen"/></a>
+                        <p class=caption>A website and blog for a school magazine</p>
+                    </div>
+                    <div class="modal fade" id=myModa4 role=dialog>
+                        <div class=modal-dialog>
+                            <div class=modal-content align=center>
+                                <div class=modal-header>
+                                    <button type=button class=close data-dismiss=modal>&times;</button>
+                                    <h4 class="modal-title ">A website for a school magazine, <a href='http://thephoenixphs.weebly.com/'>PHS the Phoenix</a></h4>
+                                </div>
+                                <div class=modal-body>
+                                    <a href='http://thephoenixphs.weebly.com/'><img class=img-responsive src="files/phs.png" alt="The Phoneix"/></a>
+                                </div>
+                                <div class=modal-footer>
+                                    <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class='container col-md-6 showcase'>
-                <div class=thumbnail>
-                    <a class=thumbnail data-toggle=modal data-target="#myModa3"><img src="files/ihtk.png" alt="Ian Hoegen"/></a>
-                    <p class=caption>A personal resume website for Ian Hoegen</p>
-                </div>
-                <div class="modal fade" id=myModa3 role=dialog>
-                    <div class=modal-dialog>
-                        <div class=modal-content align=center>
-                            <div class=modal-header>
-                                <button type=button class=close data-dismiss=modal>&times;</button>
-                                <h4 class="modal-title ">Personal resume site for, <a href='http://ianhoegen.tk'>Ian Hoegen</a></h4>
-                            </div>
-                            <div class=modal-body>
-                                <a href='http://ianhoegen.tk'><img class=img-responsive src="files/ihtk.png" alt="Ian Hoegen"/></a>
-                            </div>
-                            <div class=modal-footer>
-                                <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+            <div class='row'>
+                <div class='container col-md-6 showcase'>
+                    <div class=thumbnail>
+                        <a class=thumbnail data-toggle=modal data-target="#myModa5"><img src="files/newtab.png" alt="NewTab Slideshow Creator"/></a>
+                        <p class=caption>A Google Chrome extension that allows users to create and save custom slideshows on their new tab pages.</p>
+                    </div>
+                    <div class="modal fade" id=myModa5 role=dialog>
+                        <div class=modal-dialog>
+                            <div class=modal-content align=center>
+                                <div class=modal-header>
+                                    <button type=button class=close data-dismiss=modal>&times;</button>
+                                    <h4 class="modal-title ">NewTab SlideShow Creator for <a href='https://chrome.google.com/webstore/detail/newtab-slideshow-creator/lmolkglopgpgndjckhkndjglddidcaib'>Chrome Extension</a></h4>
+                                </div>
+                                <div class=modal-body>
+                                    <a href='http://newtab.hoegendevelopments.ga'><img class=img-responsive src="files/newtab.png" alt="NewTab Sideshow Creator"/></a>
+                                    <p>
+                                        <a href='https://chrome.google.com/webstore/detail/newtab-slideshow-creator/lmolkglopgpgndjckhkndjglddidcaib'>Chrome Extension Download</a>
+                                        <br>
+                                        <a href='http://newtab.hoegendevelopments.ga'>Live Working Demo</a>
+                                    </p>
+                                </div>
+                                <div class=modal-footer>
+                                    <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class='container col-md-6 showcase'>
-                <div class=thumbnail>
-                    <a class=thumbnail data-toggle=modal data-target="#myModa4"><img src="files/phs.png" alt="Ian Hoegen"/></a>
-                    <p class=caption>A website and blog for a school magazine</p>
-                </div>
-                <div class="modal fade" id=myModa4 role=dialog>
-                    <div class=modal-dialog>
-                        <div class=modal-content align=center>
-                            <div class=modal-header>
-                                <button type=button class=close data-dismiss=modal>&times;</button>
-                                <h4 class="modal-title ">A website for a school magazine, <a href='http://thephoenixphs.weebly.com/'>PHS the Phoenix</a></h4>
-                            </div>
-                            <div class=modal-body>
-                                <a href='http://thephoenixphs.weebly.com/'><img class=img-responsive src="files/phs.png" alt="The Phoneix"/></a>
-                            </div>
-                            <div class=modal-footer>
-                                <button type=button class="btn btn-default" data-dismiss=modal>Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <div class='container col-md-6 showcase'></div>
             </div>
         </div>
         <a name=team></a>
@@ -390,18 +431,18 @@
                         ;
         </script>
         <script type="text/javascript" data-cfasync="false">(function () {
-               var done = false;
-               var script = document.createElement("script");
-               script.async = true;
-               script.type = "text/javascript";
-               script.src = "https://app.purechat.com/VisitorWidget/WidgetScript";
-               document.getElementsByTagName("HEAD").item(0).appendChild(script);
-               script.onreadystatechange = script.onload = function (e) {
-                   if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
-                       var w = new PCWidget({c: "d1245064-4aee-4a94-920c-aceb6b464777", f: true});
-                       done = true;
-                   }
-               };
-           })();</script>
+                var done = false;
+                var script = document.createElement("script");
+                script.async = true;
+                script.type = "text/javascript";
+                script.src = "https://app.purechat.com/VisitorWidget/WidgetScript";
+                document.getElementsByTagName("HEAD").item(0).appendChild(script);
+                script.onreadystatechange = script.onload = function (e) {
+                    if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+                        var w = new PCWidget({c: "d1245064-4aee-4a94-920c-aceb6b464777", f: true});
+                        done = true;
+                    }
+                };
+            })();</script>
     </body>
 </html>
