@@ -1,7 +1,7 @@
 @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css');
 body{font-family:'Roboto', sans-serif;position:relative;}
-.banner{background-color: #00d965;position:fixed;width:100%; color:white;z-index: 1000;height:34px; }
-.banner .pull-right{margin-right:0px!important; padding-right:0px!important}
+  .banner{background-color: #00d965;position:fixed;width:100%; color:white;z-index: 1000}
+  .banner .pull-right{margin-right:0px!important; padding-right:0px!important}
 .banner .pull-left{padding-top:5px}
 .banner a{color:white;}
 .banner button{border-radius: 0px!important}
@@ -105,4 +105,10 @@ footer ul{list-style-type:none;margin-left:-40px;}
  .back{visibility:hidden;-ms-transition:all 0.2s cubic-bezier(.92,.01,.83,.67);}
  .front{z-index:4;}
  .card-container:hover .back{z-index:5;visibility:visible;}
+}
+@media screen and (max-width:1199px)
+{
+  .banner{display: none}
+
+  header{margin-top:0px}
 }
