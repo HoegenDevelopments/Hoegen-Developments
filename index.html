@@ -12,6 +12,9 @@
         <meta property=og:description content="We are a web design and development firm based in Gig Harbor, Washington. We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business."/>
         <meta name="google-site-verification" content="DR-bctiAOU5lFll54LfH-Q9cx6gdkZfuPLcwZiq6VZY" />
         <base target ="_blank">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
         <script>
             (function (i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
@@ -27,8 +30,28 @@
             ga('create', 'UA-66867484-1', 'auto');
             ga('send', 'pageview');
         </script>
+
     </head>
     <body data-spy=scroll data-target=.nav data-offset=50>
+        <div class='banner'><div class='pull-left' style='padding-left: 5px'><p><b>We are proud to announce NewTab Slideshow Creator for Google Chrome. 
+                     </b></p></div> 
+            <div class='pull-right'>
+                <b><a href='http://newtab.hoegendevelopments.ga'>Click here for live demo.</a> 
+                    &nbsp;
+                    
+                    <a href='https://chrome.google.com/webstore/detail/newtab-slideshow-creator/lmolkglopgpgndjckhkndjglddidcaib'>Click here for Google Chrome extension.</a>
+                </b >
+                <button id='closeBanner' class='btn-danger btn'>X</button>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function () {
+                $('#closeBanner').click(function () {
+                    $('.banner').hide();
+                    $('header').css('margin-top', '0px');
+                });
+            });
+        </script>
         <header class=nav>
             <nav class=nav>
                 <div id=navbar class=col-lg-1> <a href=#home target="_self"><img class='logo center-block' src='files/logo.jpg' alt=logo></a></div>
@@ -419,16 +442,14 @@
                 </ul>
             </div>
         </footer>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script>
-                        var submitted = false;
-                        $('body').scrollspy({target: '.nav'});
-                        function hide() {
-                            $('.thanks').show();
-                            $('.form').hide();
-                        }
-                        ;
+            var submitted = false;
+            $('body').scrollspy({target: '.nav'});
+            function hide() {
+                $('.thanks').show();
+                $('.form').hide();
+            }
+            ;
         </script>
         <script type="text/javascript" data-cfasync="false">(function () {
                 var done = false;
