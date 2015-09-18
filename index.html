@@ -4,30 +4,17 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hoegen Developments</title>
+                        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
         <link rel=stylesheet href=main.css>
+
         <link rel="shortcut icon" href="files/hd.png" type="image/x-icon"/>
         <meta property=keywords content="gig harbor, web design, gig harbor web design, social media, web development, ian hoegen, hoegen developments"/>
         <meta property=og:description content="We are a web design and development firm based in Gig Harbor, Washington. We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business."/>
         <meta name="google-site-verification" content="DR-bctiAOU5lFll54LfH-Q9cx6gdkZfuPLcwZiq6VZY" />
         <base target ="_blank">
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-        <script>
-            (function (i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function () {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-            ga('create', 'UA-66867484-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+       
+      
 
     </head>
     <body data-spy=scroll data-target=.nav data-offset=50>
@@ -42,18 +29,10 @@
                 <button id='closeBanner' class='btn-danger btn'>X</button>
             </div>
         </div>
-        <script>
-            $(document).ready(function () {
-                $('#closeBanner').click(function () {
-                    $('.banner').hide();
-                    $('header').css('margin-top', '0px');
-                });
-            });
-        </script>
         <header class=nav>
             <nav class=nav>
                 <div id=navbar class=col-lg-1> <a href=#home target="_self"><img class='logo center-block' src='files/logo.jpg' alt=logo></a></div>
-                <ul class='pull-right nav nav-tabs  center-block green'>
+                <ul class='pull-right nav nav-tabs  center-block'>
                     <li class=active><a href=#home target="_self">Home</a></li>
                     <li><a href=#about target="_self">About</a></li>
                     <li><a href=#portfolio target="_self">Our Work</a></li>
@@ -62,15 +41,13 @@
                 </ul>
             </nav>
         </header>
-        <a name=home></a>
-        <div id=home class=" jumbotron">
+             <div id=home class=" jumbotron">
             <div class=container>
                 <h1>Hoegen Developments</h1>
                 <p>We are a web design and development firm based in Gig Harbor, Washington. <br>We specialize in all the latest web technologies and needs that a small business would need, including responsive web design and development, and social media marketing and management, allowing you to focus on what matters to you most, your business.</p>
                 <p><a class="btn btn-success btn-lg" href="#about" target="_self" role=button>Learn more</a></p>
             </div>
         </div>
-        <a name=about></a>
         <div id=about class=section2>
             <h1>Services We Offer</h1>
             <div class="row">
@@ -83,24 +60,23 @@
             </div>
             <div class=col-md-4>
                 <h3>Social Media</h3>
-                <img class=img-responsive src='files/smedia.jpg'>
+                <img class=img-responsive src='files/smedia.jpg' alt="Social Media Marketing">
                 <br>
                 <br>
                 <p>Social media allows you to connect with your clients in ways never before possible. At Hoegen Developments, we have social media consultants who can help spread your word. </p>
             </div>
             <div class=col-md-4>
                 <h3>IT Solutions</h3>
-                <img class=img-responsive src='files/server.jpg' width=400>
+                <img class=img-responsive src='files/server.jpg' width=400 alt="IT Services">
                 <br>
                 <p>We keep your business up and running while also keeping you connected to your clients and your employees. Our team of dedicated employees are dedicated to your success. </p>
             </div>
             </div>
         </div>
-        <a name=portfolio></a>
         <div id=portfolio class=section3>
             <h1>Our Work</h1>
             <div class='row'>
-                <div class="container col-md-6 " align=center>
+                <div class="container col-md-6 center-block">
                     <div class=thumbnail>
                         <a class=thumbnail data-toggle=modal data-target="#myModal"><img src="files/w2gh.png" alt="Welcome To Gig Harbor"/></a>
                         <p class=caption>Website for The Lee Team Real Estate, in Gig Harbor</p>
@@ -129,7 +105,7 @@
                     </div>
                     <div class="modal fade" id=myModal2 role=dialog>
                         <div class=modal-dialog>
-                            <div class=modal-content align=center>
+                            <div class=modal-content center-block>
                                 <div class=modal-header>
                                     <button type=button class=close data-dismiss=modal>&times;</button>
                                     <h4 class="modal-title ">Website for a local author, <a href='http://mdmooreauthor.com'>MD Moore</a></h4>
@@ -146,7 +122,7 @@
                 </div>
             </div>
             <div class='row'>
-                <div class='container col-md-6 showcase'>
+                <div class='container col-md-6'>
                     <div class=thumbnail>
                         <a class=thumbnail data-toggle=modal data-target="#myModa3"><img src="files/ihtk.png" alt="Ian Hoegen"/></a>
                         <p class=caption>A personal resume website for Ian Hoegen</p>
@@ -168,7 +144,7 @@
                         </div>
                     </div>
                 </div>
-                <div class='container col-md-6 showcase'>
+                <div class='container col-md-6'>
                     <div class=thumbnail>
                         <a class=thumbnail data-toggle=modal data-target="#myModa4"><img src="files/phs.png" alt="Ian Hoegen"/></a>
                         <p class=caption>A website and blog for a school magazine</p>
@@ -192,7 +168,7 @@
                 </div>
             </div>
             <div class='row'>
-                <div class='container col-md-6 showcase'>
+                <div class='container col-md-6'>
                     <div class=thumbnail>
                         <a class=thumbnail data-toggle=modal data-target="#myModa5"><img src="files/newtab.png" alt="NewTab Slideshow Creator"/></a>
                         <p class=caption>A Google Chrome extension that allows users to create and save custom slideshows on their new tab pages.</p>
@@ -219,10 +195,9 @@
                         </div>
                     </div>
                 </div>
-                <div class='container col-md-6 showcase'></div>
+                <div class='container col-md-6'></div>
             </div>
         </div>
-        <a name=team></a>
         <div id=team class=section4>
             <div class="row">
             <h1> Our Team </h1>
@@ -231,10 +206,10 @@
                     <div class=card>
                         <div class=front>
                             <div class=cover>
-                                <img src="http://i.imgur.com/7YIMdWO.jpg"/>
+                                <img src="http://i.imgur.com/7YIMdWO.jpg" alt="Mountains"/>
                             </div>
                             <div class=user>
-                                <img class=img-circle src="files/face3.JPG"/> </div>
+                                <img class=img-circle src="files/face3.JPG" alt="Ian Hoegen"/> </div>
                             <div class=content>
                                 <div class=main>
                                     <h3 class=name>Ian Hoegen</h3>
@@ -244,7 +219,7 @@
                                     <h5><i class="glyphicon glyphicon-envelope "></i> ianhoegen@gmail.com</h5>
                                 </div>
                                 <div class=footer>
-                                    <div class=rating>
+                                    <div>
                                         <i class="glyphicon glyphicon-star"></i>
                                         <i class="glyphicon glyphicon-star"></i>
                                         <i class="glyphicon-star glyphicon"></i>
@@ -262,9 +237,9 @@
                             <div class=footer>
                                 <div class="social-links text-center">
                                     <a href="http://ian.hoegendevelopments.ga">Personal Site</a>
-                                    <a href="http://cretive-tim.com" class=facebook><i class="fa fa-facebook fa-fw"></i></a>
-                                    <a href="http://cretive-tim.com" class=google><i class="fa fa-google-plus fa-fw"></i></a>
-                                    <a href="http://cretive-tim.com" class=twitter><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="http://cretive-tim.com"><i></i></a>
+                                    <a href="http://cretive-tim.com" ><i></i></a>
+                                    <a href="http://cretive-tim.com" ><i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -275,10 +250,10 @@
                     <div class=card>
                         <div class=front>
                             <div class=cover>
-                                <img src="http://i.imgur.com/7YIMdWO.jpg"/>
+                                <img src="http://i.imgur.com/7YIMdWO.jpg" alt="Seattle"/>
                             </div>
                             <div class=user>
-                                <img class=img-circle src="files/face2.jpg"/> </div>
+                                <img class=img-circle src="files/face2.jpg" alt="Riley"/> </div>
                             <div class=content>
                                 <div class=main>
                                     <h3 class=name>Riley VanOverbeke</h3>
@@ -287,7 +262,7 @@
                                     <h5><i class="glyphicon glyphicon-home"></i> Hoegen Developments </h5>
                                 </div>
                                 <div class=footer>
-                                    <div class=rating>
+                                    <div>
                                         <i class="glyphicon glyphicon-star"></i>
                                         <i class="glyphicon glyphicon-star-empty"></i>
                                         <i class="glyphicon-star-empty glyphicon"></i>
@@ -304,9 +279,9 @@
                             </div>
                             <div class=footer>
                                 <div class="social-links text-center">
-                                    <a href="http://cretive-tim.com" class=facebook><i class="fa fa-facebook fa-fw"></i></a>
-                                    <a href="http://cretive-tim.com" class=google><i class="fa fa-google-plus fa-fw"></i></a>
-                                    <a href="http://cretive-tim.com" class=twitter><i class="fa fa-twitter fa-fw"></i></a>
+                                    <a href="http://cretive-tim.com"><i></i></a>
+                                    <a href="http://cretive-tim.com"><i></i></a>
+                                    <a href="http://cretive-tim.com"><i></i></a>
                                 </div>
                             </div>
                         </div>
@@ -357,7 +332,6 @@
             </div>
             </div>
         </div>
-        <a name=contact></a>
         <div id=contact class=section5>
             <div class=thanks>
                 <h1 style=text-align:center>Thank you for your response</h1>
@@ -446,6 +420,8 @@
             </div>
                 </div>
         </footer>
+               <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script>
             var submitted = false;
             $('body').scrollspy({target: '.nav'});
@@ -463,11 +439,37 @@
                 script.src = "https://app.purechat.com/VisitorWidget/WidgetScript";
                 document.getElementsByTagName("HEAD").item(0).appendChild(script);
                 script.onreadystatechange = script.onload = function (e) {
-                    if (!done && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
+                    if (!done && (!this.readyState || this.readyState === "loaded" || this.readyState === "complete")) {
                         var w = new PCWidget({c: "d1245064-4aee-4a94-920c-aceb6b464777", f: true});
                         done = true;
                     }
-                };
-            })();</script>
+                
+    };
+});
+        </script>
+  
+       <script>
+            $(document).ready(function () {
+                $('#closeBanner').click(function () {;
+                    $('.banner').hide();
+                    $('header').css('margin-top', '0px');
+                });
+            });
+        </script>
+         <script>
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
+                i[r] = i[r] || function () {
+                    (i[r].q = i[r].q || []).push(arguments);
+                }, i[r].l = 1 * new Date();
+                a = s.createElement(o),
+                        m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            ga('create', 'UA-66867484-1', 'auto');
+            ga('send', 'pageview');
+        </script>
     </body>
 </html>
