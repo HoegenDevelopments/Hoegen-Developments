@@ -3,6 +3,14 @@
  *  Website: http://hoegendevelopments.ga
  * Contact: Phone: (253) 328 1936; ianhoegen@gmail.com
  */
+$(document).ready(function () {
+
+    setTimeout(function () {
+        $('body').addClass('loaded');
+        $('.banner').show();
+    }, 3000);
+
+});
 var submitted = false;
 $('body').scrollspy({target: '.nav'});
 function hide() {
