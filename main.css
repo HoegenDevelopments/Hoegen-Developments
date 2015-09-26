@@ -228,6 +228,6 @@ footer ul{list-style-type:none;margin-left:-40px;}
                                                                        .front{z-index:4;}
                                                                        .card-container:hover .back{z-index:5;visibility:visible;}
 }
-@media screen and (max-width:1199px){.banner{display:none;}
+@media screen and (max-width:1199px){.banner{display:none!important;}
                                      header{margin-top:0px;}
 }
