@@ -1,21 +1,34 @@
-/* 
+/*
  * Created by Ian Hoegen; Hoegen Developments 2015
  *  Website: http://hoegendevelopments.ga
  * Contact: Phone: (253) 328 1936; ianhoegen@gmail.com
  */
-  $('a').click(function () {
-                        $('html, body').animate({
-                            scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top
-                        }, 1000);
-                        return false;
-                    });
+
+$('a').click(function () {
+    $('html, body').animate({
+        scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 1000);
+    return false;
+});
+
 $(document).ready(function () {
 
     setTimeout(function () {
         $('body').addClass('loaded');
         $('.banner').show();
     }, 3000);
-
+    $('.arrows').click(function () {
+        $('.page1').hide();
+        $('.arrows').hide();
+        $('.page2').show();
+        $('.arrows2').show();
+    });
+    $('.arrows2').click(function () {
+        $('.page2').hide();
+        $('.arrows2').hide();
+        $('.page1').show();
+        $('.arrows').show();
+    });
 });
 var submitted = false;
 $('body').scrollspy({target: '.nav'});
@@ -44,5 +57,3 @@ $(document).ready(function () {
 })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 ga('create', 'UA-66867484-1', 'auto');
 ga('send', 'pageview');
-
-
